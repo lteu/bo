@@ -1,7 +1,12 @@
 \documentclass[12pt,a4paper,openright,twoside]{book}
 
+
+\usepackage{multicol}
+\usepackage[usenames, dvipsnames]{color}
+
 \input{setup/package}   
 \input{setup/format}   
+
 
        
 %
@@ -22,6 +27,8 @@
 \lhead[\fancyplain{}{\bfseries\thepage}]{\fancyplain{}{\bfseries\rightmark}}
 \pagenumbering{arabic}                  %mette i numeri arabi
 
+
+\cfoot{ \colorbox{BurntOrange} {当前版本为测试版，很多内容待修改校正，请勿转发 －2016年3月12日}}
 \input{body/welcome}  
 \input{body/firstweek} 
 \input{body/connect} 
@@ -29,6 +36,7 @@
 \input{body/locals}
 \input{body/tour}
 \input{body/enrollment} 
+\input{body/ababo} 
 \input{body/asscubo}
 \input{body/faq} 
 % \input{body/firstweek} 

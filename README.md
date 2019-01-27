@@ -5,3 +5,6 @@
 compile with:
 
 xelatex main.tex
+
+
+The short.tex version has been customized(shortened) for budget scope in Printing Service shop.
